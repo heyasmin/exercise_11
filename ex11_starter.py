@@ -8,9 +8,12 @@ print("-"*len(Belgium))
 print(Belgium.replace(',',':'))
 
 # this is the slicing method
-belgium_population = Belgium[8:16]
+belgium_population = int(Belgium[8:16])
 print(belgium_population)
-brussels_population = Belgium[26:32]
+brussels_population = int(Belgium[26:32])
 print(brussels_population)
 
+total_population = belgium_population + brussels_population
+
+print(f'The total population is: {total_population}')
 
