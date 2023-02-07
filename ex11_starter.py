@@ -26,7 +26,7 @@ print(Belgium.replace(',', ':'))
 
 belgium_population = int(Belgium_list[1])
 print(belgium_population)
-cd 
+
 brussels_population = int(Belgium_list[3])
 print(brussels_population)
 
